@@ -1,9 +1,9 @@
-import "./App.css";
 import { AppBar,Toolbar, Typography } from "@mui/material";
 import Carlist from "./components/Carlist";
 
 function App() {
-  return <div className="App">
+  return (
+  <div className="App">
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6">
@@ -12,7 +12,8 @@ function App() {
       </Toolbar>
     </AppBar>
     <Carlist />
-  </div>;
+  </div>
+  );
 }
 
 export default App;
